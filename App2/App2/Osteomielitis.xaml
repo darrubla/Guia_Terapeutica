@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Osteomielitis"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Osteomielitis crónica"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start" 
+            />
+            <Label Text="En general no se recomienda tratamiento empírico a menos que el paciente
+                   este gravemente enfermo."
+                   FontSize="Large"
+                   VerticalOptions="StartAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+            />
+            <Label Text="UNICAMENTE SI PACIENTE SÉPTICO DE LO CONTRARIO CULTIVAR HUESO SIEMPRE ANTES 
+                   DE INICIAR ANTIBIÓTICO. Contacte a infectología para terapia empírica"
+                   FontSize="Large"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

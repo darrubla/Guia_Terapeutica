@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Osteomusculares"
+            Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Button Clicked="Artritis_OnClicked" Text="Artritis séptica" VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" />
+            <Button Clicked="Espondilodiscitis_OnClicked" Text="Espondilodiscitis" VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" />
+            <Button Clicked="Osteomielitis_OnClicked" Text="Osteomielitis crónica" VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

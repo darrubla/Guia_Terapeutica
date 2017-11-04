@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Liquido_Sinivial_Bacilos"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Es su paciente inmunodeprimido"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+            />
+            <StackLayout Orientation="Horizontal">
+                <Button Clicked="Inmunodeprimido_Si_OnClicked"  Text="Si"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="FillAndExpand">
+                </Button>
+
+                <Button Clicked="Inmunodeprimido_No_OnClicked"  Text="No"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="FillAndExpand">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

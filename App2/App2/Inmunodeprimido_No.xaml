@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Inmunodeprimido_No"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bacilos Gram (-):"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+            />
+            <Label Text="Tratamiento"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="Start"
+            />
+            <Label Text="-Ceftriaxona 2g/24h iv + Amikacina 19 mg/kg/24 h x 2-6 semanas"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Label Text="Alérgicos:                                                                 
+                   -Ciprofloxacino 400 mg/12h + Amikacina 15mg/kg/24h x 2-6 semanas"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

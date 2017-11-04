@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.SARM_Si"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Cocos Gram(+):"
+                   FontSize="Large"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start" 
+                   FontAttributes="Bold"
+            />
+
+            <Label Text="Sospecha SARM:"
+                   FontSize="Medium"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="Start"
+                                  
+            />
+            <Label Text="-Cloxacilina                                                                      
+                   2g/4h iv + Vancomicina 15 mg/kg/12h iv hasta
+                   disponer de resultados definitivos."
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

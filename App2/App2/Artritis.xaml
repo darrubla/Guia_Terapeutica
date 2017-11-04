@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Artritis"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Artritis Séptica:"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start"
+            />
+            <Button Clicked="liquido_Sinivial_OnClicked" 
+                    Text="-	Su paciente tiene un gram con liquido sinivial que muestra cocos Gram (-)" 
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand" >
+                
+            </Button>
+            <Button Clicked="liquido_Sinivial_Mas_OnClicked" 
+                    Text="Su paciente tiene un gram con liquido sinivial que muestra cocos Gram (+) " 
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand" >
+                
+            </Button>
+            <Button Clicked="Liquido_Sinivial_Bacilos_OnClicked" 
+                    Text="Su paciente tiene un gram con liquido sinivial que muestra cocos Bacilos Gram (-)" 
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
+                
+            </Button>
+            <Button Clicked="Empirico_OnClicked" 
+                    Text="Empirico" 
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
+                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

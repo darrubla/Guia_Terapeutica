@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Inmunodeprimido_Si"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Bacilos Gram (-):"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+            />
+            <Label Text="Tratamiento"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="Start"
+            />
+            <Label Text="-Piperacilina/tazobactam 4,5 gr IV cada 6 horas o 
+                   -cefepime 2g/8h iv + Amikacina 15mg/kg/24h x 2-6 semanas"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

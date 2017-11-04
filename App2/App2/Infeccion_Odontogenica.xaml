@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Infeccion_Odontogenica"
+             Title="GUIA TERAPEUTICA HUN"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tratamiento de Infección odontogénica/absceso faríngeo"
+                FontSize="Medium"   
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontAttributes="Bold"
+                
+                                   />
+            <Label Text="- Ampicilina/sulbactam 3 gr IV/6 horas x 10-14 días" 
+                FontSize="Medium"   
+                FontAttributes="Bold" 
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                    />
+
+            <Label Text="Si alergia a la penicilina:             
+                   -Clindamicina 600 mg IV/8 horas +
+                   aztreonam 1 gr IV/8 horas x 10-14 días" 
+                FontSize="Medium"   
+                FontAttributes="Bold" 
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                              
+            />
+
+            <Label Text="IMPORTANTE: Drenaje quirúrgico " 
+                FontSize="Medium"   
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                    />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

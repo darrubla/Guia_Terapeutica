@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Empirico"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Empirico"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start" 
+            />
+
+            <Label Text="Sin factores de riesgo:                                                   
+                        -Cloxacilina 2 g/4h iv + ceftriaxona 1-2 g/24h x 2-6 semanas"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Label Text="Alérgicos:                                                                           
+                   -Vancomicina 15 mg/kg/12h iv + ciprofloxacino 400 mg IV/12h x 2-6 semanas"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Label Text="Inmunosuprimidos, manipulación previa:                                                     
+                   -Vancomicina 15 mg/kg/12h iv + piperacilina/tazobactam 
+                   4,5 gr IV cada 6 horas x 2-6 semanas "
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

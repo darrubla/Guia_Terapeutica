@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" /-->
+            <Button Clicked="Bucofaringeo_OnClicked" Text="Bucofaringeos" VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" >
+            </Button>
+            <Button Clicked="Osteomusculares_OnClicked" Text="Osteomusculares" VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" >
+            </Button>
+            <Button Clicked="Otitis_OnClicked" Text="Otitis" VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" >
+            </Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

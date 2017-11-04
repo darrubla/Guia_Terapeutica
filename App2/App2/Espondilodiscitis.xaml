@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Espondilodiscitis"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Espondilodiscitis"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start" 
+            />
+            <Label Text="-Vancomicina1gr/IV/12h+ Ceftriaxona, 2gr/IV/día "
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Label Text="Sí es adquirida en la comunidad."
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Label Text="Tratamiento mínimo 8 semanas, según etiología."
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Label Text="IMPORTANTE: En general no se recomienda                                      
+                   tratamiento empírico a menos que el                                                    
+                   paciente este gravemente enfermo o                                                       
+                   sospecha de absceso epidural"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="Center"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
