@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Meningitis_Aguda"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Meningitis aguda, sospecha bacteriana, con negatividad de tinción de gram"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="StartAndExpand" 
+            />
+            <Label Text="Ceftriaxona: 50  mg/kg IV/ dia (dosis
+                   máxima 4 mg/dia) + Vancomicina 15
+                   mg/kg/IV/12 horas (sí mayor de 50 años
+                   o inmunosuprimido agregar ampicilina
+                   2 gr IV/ 4 horas)"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Label Text="Si concentración minima inhibitoria a cefotaxima > 1 mcg /ml agregar rifampicina 15 mg/ kg/ dia/ 24 horas (se puede dividir en 2 dosis - 12 horas)"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Label Text="Importante: realizar profilaxis en las personas cercanas y personal sanitario que haya tenido contacto con secreciones de pacientes diagnosticados con N. meningitidis y H influenza."
+                   FontSize="Medium"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+            />
+            <Button Clicked="Corticoides_OnClicked" Text="Corticoides"
+                    VerticalOptions="End"
+                    HorizontalOptions="CenterAndExpand">                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Meningitis"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Meningitis de origen infeccioso"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="CenterAndExpand" 
+            />
+            <Button Clicked="Meningitis_Aguda_OnClicked" Text="Meningitis aguda, sospecha bacteriana"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
+            </Button>
+            <Button Clicked="Meningitis_Aguda_Viral_OnClicked" Text="Meningitis aguda, sospecha Viral                                            
+                    (linfocítica)"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
+            </Button>
+            <Button Clicked="Tratamiento_OnClicked" Text="Días de tratamiento"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
+            </Button>
+            <Button Clicked="Corticoides_OnClicked" Text="Corticoides"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

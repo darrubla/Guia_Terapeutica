@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App2.Otitis"
+             x:Class="App2.Cerebral"
              Title="GUIA TERAPEUTICA HUN">
     <ContentPage.Content>
         <StackLayout>
-            <Button Clicked="Otitis_Cronica_OnClicked"
-                    Text="Otitis externa maligna"
+            <Button Clicked="Absceso_OnClicked" Text="Absceso cerebral"
                     VerticalOptions="Start"
                     HorizontalOptions="FillAndExpand">                
+            </Button>
+            <Button Clicked="Meningitis_OnClicked" Text="Meningitis de origen infeccioso"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="FillAndExpand">
             </Button>
         </StackLayout>
     </ContentPage.Content>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Meningitis_Aguda_Viral"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Meningitis aguda, sospecha viral                                           
+                   (linfocítica):"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start" 
+            />
+            <Label Text="- Aciclovir: 10 mg/ kg/ 8 h IV x 14-21 dias en espera de resultados."
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+            />
+            <Label Text="- Agregar ampicilina, 2 g IV/ 4 h si sospecha de listeriosis."
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+            />
+            <Label Text="Importante:  realizar profilaxis en las personas cercanas y personal sanitario que haya tenido contacto con secreciones de pacientes diagnosticados con N. meningitidis y H influenza."
+                   FontSize="Medium"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+            />
+            <Button Clicked="Corticoides_OnClicked" Text="Corticoides"
+                    VerticalOptions="End"
+                    HorizontalOptions="CenterAndExpand">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

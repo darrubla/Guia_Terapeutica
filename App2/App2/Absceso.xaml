@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Absceso"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Absceso cerebral:"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start" 
+            />
+            <Label Text="Ceftriaxona: 50  mg/kg IV/ dia (dosis
+                   máxima 4 mg/dia) + Vancomicina 15 
+                   mg/kg/IV/12 horas + Metronidazol, 500 mg
+                   IV/8 horas"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   VerticalOptions="StartAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+            />
+            <Label Text="Post-traumática:                                                          
+                   - Vancomicina, 15 mg/kg IV/12 horas +
+                   Cefepime, 2 gr IV/8 horas"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+            />
+            <Label Text="Según evolución clínica y radiográfica (mínimo 4 semanas)"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

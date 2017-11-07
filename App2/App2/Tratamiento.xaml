@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Tratamiento"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Dias de tratamiento antibiotico"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start" 
+            />
+            <Label Text="•	N meningitidis (7 dias)                                         
+                    •	H. Influenza (7dias)                                                  
+                    •	S. Pneumoniae (10 dias)                                                  
+                    •	S. agalactiae (14 a 21 dias)                                              
+                    •	L monocytogenes (21 dias)                                                   
+                    •	Gram negativos (21 dias)"                                                     
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="Start" 
+            />
+            <Button Clicked="Corticoides_OnClicked" Text="Corticoides"
+                    VerticalOptions="End"
+                    HorizontalOptions="CenterAndExpand">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

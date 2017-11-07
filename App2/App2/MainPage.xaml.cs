@@ -31,5 +31,11 @@ namespace App2
 
             Navigation.PushAsync(new Otitis());
         }
+
+        private void Cerebral_OnClicked(object sender, System.EventArgs e)
+        {
+
+            Navigation.PushAsync(new Cerebral());
+        }
     }
 }

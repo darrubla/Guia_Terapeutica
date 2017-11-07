@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Corticoides"
+             Title="GUIA TERAPEUTICA HUN">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Corticoides:"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start"
+            />
+            <Label Text="- comenzar con un bolo inicial de 8 a 12 mg de dexametasona, antes o junto con la primera dosis de antibiótico."
+                   FontSize="Medium"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+            />
+            <Label Text="- Si la tinción de Gra de LCR muentra diplococos gram positivos o se aisla S. Pneumoniae en LCR o en hemocultivos, continuar con dexametasona 4 mg/ 6-8 horas x 4 días."
+                   FontSize="Medium"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="FillAndExpand"
+            />
+            <Label Text="- Si la tinción de Gram es negativa, dado que no puede descartarse la etiología neumococica, se recomienda continuar la pauta con dexametasona hasta tener los resultados de los cultivos."
+                   FontSize="Medium"
+                   VerticalOptions="FillAndExpand" 
+                   HorizontalOptions="Fill"
+            />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -18,6 +18,9 @@
             <Button Clicked="Otitis_OnClicked" Text="Otitis" VerticalOptions="FillAndExpand"
             HorizontalOptions="FillAndExpand" >
             </Button>
+            <Button Clicked="Cerebral_OnClicked" Text="Cerebrales" VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" >
+            </Button>
 
         </StackLayout>
     </ContentPage.Content>

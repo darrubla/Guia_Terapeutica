@@ -8,7 +8,7 @@
         <StackLayout>
             <Button Clicked="Infeccion_OnClicked" 
                     Text="Infección odontogénica/ abcceso faringeo"
-                    VerticalOptions="FillAndExpand"
+                    VerticalOptions="Center"
                     HorizontalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>
